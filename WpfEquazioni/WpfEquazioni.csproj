@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="f_-quando-il-gesso-graffia-la-lavagna-ecco-la-grima-7cyz.jpg" />
+    <None Remove="uuuuuuuu.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EquazioniLibrary\EquazioniLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="f_-quando-il-gesso-graffia-la-lavagna-ecco-la-grima-7cyz.jpg" />
+    <Resource Include="uuuuuuuu.jpg" />
+  </ItemGroup>
+
+</Project>
